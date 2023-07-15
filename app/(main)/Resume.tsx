@@ -16,35 +16,38 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '深圳市佐玩信息技术有限公司',
-    title: '创始人 CEO',
+    company: '豆瓣电影',
+    title: '1112 部',
     logo: zolplayLogo,
-    start: '2021',
+    start: '2019',
     end: {
       label: '至今',
       dateTime: new Date().getFullYear(),
     },
   },
   {
-    company: 'very very spaceship',
-    title: '软件工程师',
+    company: '网站开发',
+    title: '10 年',
     logo: vvsLogo,
-    start: '2018',
-    end: '2020',
-  },
-  {
-    company: '8ninths Inc.',
-    title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
-    start: '2017',
-    end: '2018',
-  },
-  {
-    company: 'Abletive',
-    title: '创始人',
-    logo: abletiveLogo,
     start: '2014',
-    end: '2016',
+    end: {
+      label: '至今',
+      dateTime: new Date().getFullYear(),
+    },
+  },
+  {
+    company: '雅思考试',
+    title: '7 分',
+    logo: eightNinthsLogo,
+    start: '2020',
+    end: '2023',
+  },
+  {
+    company: '推特粉丝',
+    title: '86 人',
+    logo: abletiveLogo,
+    start: '2022',
+    end: '2023',
   },
 ]
 
@@ -65,7 +68,7 @@ export function Resume() {
     <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <BriefcaseIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">工作经历</span>
+        <span className="ml-2">数字人生</span>
       </h2>
       <ol className="mt-6 space-y-4">
         {resume.map((role, roleIndex) => (
