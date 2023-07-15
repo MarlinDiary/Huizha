@@ -80,7 +80,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          欢迎来到绘札
+          欢迎来到
+          <PeekabooLink href="https://huizha.com">绘札</PeekabooLink>
           ，我的精神角落，我会在这里倾注热情、分享兴趣和记录灵感。
           目前，我正在准备 GMAT 考试和留学申请，其中点滴的努力和得失也将被如数呈现。
         </Balancer>
