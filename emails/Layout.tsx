@@ -44,10 +44,10 @@ export default function Layout({
               />
               <Text className="text-center">
                 <Link
-                  href="https://cali.so"
+                  href="https://huizha.com"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>绘札</strong>
                 </Link>
                 <br />
                 开发者、设计师、细节控、创始人
