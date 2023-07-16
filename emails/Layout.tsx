@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>绘札</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                拍照、抑郁和记录
               </Text>
               <Text className="text-center">
                 <Link
