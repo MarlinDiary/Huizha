@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      文艺痴
+      电影迷
     </span>
   )
 }
